@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="We are a two person indie game studio based in India, learning to build fun and meaningful games.">
     <meta name=”robots” content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
     <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png">
 
@@ -18,18 +18,23 @@
   </head>
   <body>
     <header class="l-center-col header">
-      <img src="assets/imissmyfriends-studio-logo.png" alt="Logo of imissmyfriends.studio" class="header__logo">
+      <div class="header__container">
+        <img src="assets/imissmyfriends-studio-logo.png" alt="Logo of imissmyfriends.studio" class="header__logo">
 
-      <h1 class="header__heading">imissmyfriends.studio</h1>
+        <h1 class="header__heading">imissmyfriends.studio</h1>
 
-      <p class="header__body">
-        We are a two person indie game studio based in India, learning to build fun and meaningful games.
-      </p>
+        <p class="header__body">
+          We are a two person indie game studio based in India, learning to build fun and meaningful games.
+        </p>
+      </div>
     </header>
 
     <section class="game-section frisk-and-floss-section">
       <div class="l-wider-col l-flex">
-        <img src="assets/frisk-and-floss.png" alt="Poster of Frisk & Floss" class="l-half-width">
+        <div class="l-half-width">
+            <img src="assets/frisk-and-floss.png" alt="Poster of Frisk & Floss" class="game-section__cover">
+        </div>
+
         <div class="l-half-width game-section__content-container">
           <div class="game-section__content">
             <h2 class="game-section__heading">Frisk & Floss</h2>
