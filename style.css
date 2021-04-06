@@ -1,7 +1,7 @@
 :root {
   --bg-color: #312E35;
   --fg-color: #fff;
-  --hi-color: #7F5E85;
+  --hi-color: #977d9c;
 
   --font-family: 'Zilla Slab', sans-serif;
 
@@ -103,4 +103,25 @@ a {
   border: none;
   border-radius: var(--half-unit);
   padding: var(--two-units);
+}
+
+.footer {
+  text-align: center;
+  margin-top: var(--ten-units);
+  margin-bottom: var(--ten-units);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li a span {
+  display: none;
+}
+
+.social-links li a img {
+  height: var(--five-units);
+  fill: red;
+  margin: var(--one-unit);
 }
