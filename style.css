@@ -65,7 +65,8 @@ a {
 
 .header__logo {
   width: 100%;
-  margin-left: -60px;
+  margin-left: -55px;
+  margin-bottom: var(--two-units);
 }
 
 .header__heading {
@@ -177,6 +178,7 @@ div.mce_inline_error {
 
 .footer__small-heart {
   height: var(--two-units);
+  padding-right: 2px;
 }
 
 .social-links {
