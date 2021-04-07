@@ -217,7 +217,7 @@ div.mce_inline_error {
 
   .header__logo {
     margin-left: 0;
-    margin-bottom: var(--one-unit);
+    margin-bottom: var(--two-units);
   }
 
   .header__body {
