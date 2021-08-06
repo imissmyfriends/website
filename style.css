@@ -141,6 +141,12 @@ a {
   margin-top: var(--one-unit);
 }
 
+.join-us__gif {
+  float: right;
+  margin-right: -70px;
+  margin-top: -100px;
+}
+
 .mce_inline_error {
   border-color: var(--hi-color) !important;
 }
@@ -222,5 +228,11 @@ div.mce_inline_error {
 
   .header__body {
     font-size: var(--two-and-half-units);
+  }
+
+  .join-us__gif {
+    float: none;
+    margin: 0 auto;
+    display: block;
   }
 }
