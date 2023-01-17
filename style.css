@@ -175,16 +175,16 @@ video {
 }
 
 /* Revue */
-#revue-form label {
+#mc-embedded-subscribe-form label {
   font-weight: normal;
   text-transform: lowercase;
   margin-right: 1rem;
 }
 
-#revue-form input[type=text]:focus,
-#revue-form input[type=email]:focus,
-#revue-form input[type=text],
-#revue-form input[type=email]{
+#mc-embedded-subscribe-form input[type=text]:focus,
+#mc-embedded-subscribe-form input[type=email]:focus,
+#mc-embedded-subscribe-form input[type=text],
+#mc-embedded-subscribe-form input[type=email]{
   background: transparent;
   border: none;
   height: 20px;
@@ -196,7 +196,7 @@ video {
   padding: 0;
 }
 
-#revue-form input[type=submit] {
+#mc-embedded-subscribe-form input[type=submit] {
   text-transform: lowercase;
   border: none;
   width: 100%;
