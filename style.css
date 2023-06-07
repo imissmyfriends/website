@@ -162,7 +162,7 @@ video {
   font-family: 'fibberishregular';
   background: var(--branding-orange);
   border: none;
-  color: var(--bs-body-bg);
+  color: var(--bs-body-bg) !important;
   font-size: 1.5rem;
   padding-top: 0.8rem;
 }
