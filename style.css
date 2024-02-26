@@ -239,6 +239,11 @@ video {
   margin-top: -10px;
 }
 
+.footer-company-text {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 0.7rem;
+}
+
 /* Responsive */
 @media (min-width: 544px) {
     .hero-heading{font-size: 6rem;}
